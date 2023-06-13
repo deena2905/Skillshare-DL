@@ -1,3 +1,5 @@
+pip install requests
+
 import requests, json, sys, re, os
 import cloudscraper
 from slugify import slugify
