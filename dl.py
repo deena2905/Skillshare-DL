@@ -8,7 +8,7 @@ from magic import cookie
 def main():
     dl = Skillshare(cookie)
     course_url = sys.argv[1]
-    dl.download_course_by_url(course_url)
+    dl.download_course_by_url(1829141067)
 
 
 if __name__ == "__main__":
